@@ -1,1 +1,2 @@
 texto do arquivo 
+linha 2 
