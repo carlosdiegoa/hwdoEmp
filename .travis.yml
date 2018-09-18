@@ -1,4 +1,9 @@
 language: java
 sudo: false # faster builds
 
+cache:
+  directories:
+  - "$HOME/.cache"
+  - "$HOME/target"
+
 script: "cd my-app; mvn package"
